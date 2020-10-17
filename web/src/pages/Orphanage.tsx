@@ -8,7 +8,6 @@ import api from "../services/api";
 import '../styles/pages/orphanage.css';
 import Sidebar from "../components/Sidebar";
 import mapIcon from "../utils/mapIcon";
-
 interface Orphanage {
   name: string,
   latitude: number,
@@ -22,7 +21,6 @@ interface Orphanage {
     url: string
   }>;
 }
-
 interface OrphanageParams {
   id: string,
 }
@@ -86,14 +84,11 @@ export default function Orphanage() {
                 />
                 <Marker interactive={false} icon={mapIcon} position={[orphanage.latitude, orphanage.longitude]} />
               </Map>
-
               <footer>
                 <a target="_blank" rel="noopener noreferrer" href={`https://www.google.com/maps/dir/?api=1&destination=${orphanage.latitude},${orphanage.longitude}`}>Ver rotas no Google Maps</a>
               </footer>
             </div>
-
             <hr />
-
             <h2>Instruções para visita</h2>
             <p>{orphanage.instructions}</p>
 
