@@ -2,6 +2,8 @@
     <img alt="Happy" title="Happy" src="https://github.com/rocketseat-education/nlw-03-omnistack/raw/master/.github/logo.svg" />
 </h1>
 
+<a href="https://happy-vert-psi.vercel.app/">Link for the website</a>
+
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
